@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Tamil:wght@300&family=Roboto+Flex:opsz,wght@8..144,200&display=swap');
+
+* {
+    font-family: 'Roboto Flex', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+#cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 1px solid #2A7523;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.info-box {
+    padding: 10px;
+}
+
+.info-titulo {
+    color: #318000;
+    font-size: 1.3rem;
+}
+
+.info p {
+    font-size: 0.9rem;
+}
+
+#cabecalho img {
+    width: 150px;
+}
+
+.nav-link:hover {
+    background-color: #61FF01;
+    color: white;
+}
+
+.nav-link {
+    color: white;
+    background-color: #45C23A;
+}
+
+.active {
+    background-color: #45C23A;
+    color: white;
+}
+
+
+.carrosel {
+    width: 600px;
+    display: block;
+    margin: auto;
+}
+
+.div-frase {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    color: #318000;
+}
+
+.div-info-carro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.catalogo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.veiculo {
+    width: 350px;
+    height: 600px;
+    box-shadow: 1px 1px 10px #888888;
+}
+
+.info-carro {
+    padding: 10px;
+}
+
+.detalhe-ali {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detalhes {
+    border: 1px solid #318000;
+    width: 50%;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    color: #318000;
+    text-decoration: none;
+}
+
+.detalhes:hover {
+    background-color: #318000;
+    color: #fff;
+    box-shadow: 1px 1px 10px #888888;
+}
+
+.intro-contatos {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.redes-sociais a, p {
+    color: #318000;
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+.redes-sociais a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #61FF01;
+    padding: 10px;
+}
